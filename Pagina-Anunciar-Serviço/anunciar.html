@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestto</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+    <link rel="shortcut icon" type="img/png" href="img/Somente-logo.png">
+    <link rel="stylesheet" href="anunciar.css">
+    <title>Document</title>
+</head>
+<body>
+     <!--Barra de navegação-->
+   <header>
+       <div class="container">
+           <div><img class="logo" src="img/Logo_site.png" alt="Logo"></div>
+           <div class="menu">
+               <nav>
+                   <a href="#">Anúncie no Prestto</a>
+                   <a href="#">Termos e serviços</a>
+               </nav>
+           </div>
+           <div class="botoes">
+               <button class="btn-sobre">Sobre</button>
+               <button class="btn-Login">Login</button>
+           </div>
+       </div>
+   </header>
+
+   <!--Painel principal de anunciar serviço -->
+   <main class="painel-principal">
+        <section>
+            <div class="tiposback">
+                <form action="">
+                    <!--Lista de Serviços-->
+                    <div class=" tipotext servico">
+                        <span>Tipos de Serviço</span>
+                        <select name="profissao" id="servico">
+                            <option value="vazio" disabled></option>
+                            <option value="marceneiro">marceneiro</option>
+                            <option value="advogado">advogado</option>
+                            <option value="motorista">Motorista</option>
+                            <option value="analista">Analista</option>
+                        </select>
+                    </div>
+                    <!--Campo de telefone-->
+                    <div class="tipotext telefone">
+                        <span>Telefone</span>
+                        <input type="tel" placeholder="(11) 1234-5678">
+                    </div>
+                    <!--Lista de cidade integrada ao local-->
+                    <div class="tipotext cidade">
+                        <span>Cidade</span>
+                        <input type="search" name="cidade" id="cidade" placeholder="Digite a cidade e o estado">
+                    </div>
+                    <div class="tipotext solicitante">
+                        <span>Tipo de solicitante</span>
+                        <select name="solicitante" id="solicitar">
+                            <option value="vazio"
+                            disabled>Escolha</option>
+                            <option value="PJ">Pessoa Juridica</option>
+                            <option value="CLT">Pessoa Fisica</option>
+                        </select>
+                    </div>
+                    <div class="tipotext email">
+                        <span>Email</span>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </form>
+        </div>
+        </section>
+
+        <!--Foto ao lado das opções-->
+        <figure>
+            <img src="img/foto-para-o-site-anunciar-servico.png" alt="">
+        </figure>
+
+        <!--Descrição do serviço-->
+        <aside>
+            <div class="descricao">
+                <span class="des-serv">Descrição do serviço</p>
+                <textarea name="descrição" id="descri" rows="4" cols="40">
+                </textarea>
+            </div>
+        </aside>
+        <!--Enviar arquivo modelo ou espoço-->
+        <aside class="arq">
+            <span>Enviar arquivo modelo</span>
+            <input type="file" multiple name="arquivos" id="arquivo-enviado">
+        </aside>
+        <!--Botão de enviar-->
+        <aside class="env">
+            <div>Enviar</div>
+        </aside>
+
+   </main>    
+</body>
+</html>

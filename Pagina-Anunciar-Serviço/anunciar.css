@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Titillium Web", sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*Navegação*/
+.container {
+   max-width: 1080px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+header {
+   width: 100%;
+   padding: 20px;
+
+
+}
+
+
+.logo {
+   width: 25%;
+}
+
+
+.logo, img {
+   width: 200px;
+}
+
+
+.menu {
+   width: 50%;
+}
+
+
+.menu nav a {
+   color: black;
+   padding-right: 5px;
+   padding-left: 30px;
+   font-size: 15px;
+}
+
+
+a:hover {
+   text-decoration: underline;
+}
+
+
+.btn-sobre, .btn-Login {
+   padding: 10px 25px 10px 25px;
+   border: 1px solid black;
+   border-radius: 15px;
+   margin: 5px;
+   border: none;
+   box-shadow: 02px 2px 3px #00000057;
+}
+
+
+.btn-Login {
+   background-color: #2A7149;
+   color: white;
+}
+
+
+.btn-Login:hover {
+   cursor: pointer;
+   background-color: #2C8454;
+}
+
+
+.btn-sobre:hover {
+   cursor: pointer;
+   background-color: #2A7149;
+   color: white;
+}
+
+/*botoes*/
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    justify-content: center;
+    
+}
+.botao {
+    background-color: #2A7149;
+    padding: 0.5rem;
+    width: auto;
+    height: auto;
+    border-radius: 9px;
+}
+
+.br{
+    color: aliceblue;
+}
+
+.sombra-esq{
+    box-shadow: -2px 2px 3px 0px #00000088;
+    transition: box-shadow 0.3s ease;
+}
+
+.sombra-esq-meio{
+    box-shadow: 0px 2px 3px 0px #00000088;
+    transition: box-shadow 0.3s ease;
+}
+.sombra-dir-meio{
+    box-shadow: 0px 2px 3px 0px #00000088;
+    transition: box-shadow 0.3s ease;
+}
+
+.sombra-dir{
+    box-shadow: 2px 2px 3px 0px #00000088;
+    transition: box-shadow 0.3s ease;
+}
+
+.botao:hover{
+    cursor: pointer;
+    background-color: #2a7149bd;
+    border: 1px solid  rgba(0, 0, 0, 0.253);
+    
+}
+
+/*painel pricipal*/
+main{
+    display: flex;
+    background-color: #2A7149;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    flex:  5px 3px  5px ;
+    border-radius: 5%;
+    width: 30rem;
+    height: 32rem;
+}
+/*seção das opções*/
+aside{
+    display: flex;
+    width: 90%;
+    margin-top: 5%;
+    height: 20%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section, figure{
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+/*Formulario*/
+.tiposback{
+
+    border-radius: 5%;
+}
+
+
+.tipotext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+
+.descricao{
+    text-align: center;
+}
+/*Imagen*/
+img{
+    display: flex;
+}
+
+/*Todos os texto (Só uso span pq é mais
+facil de mexer e tambem pq o p é considerado div)*/
+span{
+    color: white;
+    font-size: medium;
+}
+
+/*Envio do Arquivo*/
+.arq{
+    width: 14rem;
+    height: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Botão de enviar arquivo*/
+.env{
+    width: 5rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #7dd8a4c3;
+    border-radius: 25%;
+
+}
