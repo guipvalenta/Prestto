@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestto</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+    <link rel="shortcut icon" type="img/png" href="img/Somente-logo.png">
+    <link rel="stylesheet" href="freelancer.css">
+</head>
+
+<body>
+
+ <!--Barra de navegação-->
+   <header>
+       <div class="container">
+           <div><img class="logo" src="img/Logo_site.png" alt="Logo"></div>
+           <div class="menu">
+               <nav>
+                   <a href="#">Anúncie no Prestto</a>
+                   <a href="#">Termos e serviços</a>
+               </nav>
+           </div>
+           <div class="botoes">
+               <button class="btn-sobre">Sobre</button>
+               <button class="btn-Login">Login</button>
+           </div>
+       </div>
+   </header>
+
+    <!--Botoes-->
+   <header class="principal">
+    <div class="botao sombra-esq"><p class="br">Editar perfil</p></div>
+    <div class="botao sombra-esq-meio"><p class="br">Assinatura</p></div>
+    <div class="botao sombra-dir-meio"><p class="br">Avaliação do serviço</p></div>
+    <div class="botao sombra-dir"><p class="br">Recibos</p></div>
+   </header>
+
+   <!--Paineis-->
+   <article class="paineis">
+            <!--PAINEL esquerdo-->  
+    <div class="painel dir">
+        <div class="nome-painel">
+            <p class="pr">Contatos</p>
+        </div>
+        <div class="sub-painel-esq">
+
+            <div class="lista-contatos">
+                <input type="text" name="pesquisar-contato" class="pesqcont" placeholder="Pesquisar contato">
+                <div class="cards">
+                <img src="img/imagem-perfil.png" alt="" class="foto-perfil online">
+                    <div class="info">
+                        <div class="nome"><p>Nome do contatos</p></div>
+                        <div class="empresa"><p>Empresa</p></div>
+                    </div>
+                </div>
+                <div class="cards">
+                <img src="img/imagem-perfil.png" alt="" class="foto-perfil off">
+                    <div class="info">
+                        <div class="nome"><p>Nome do contatos</p></div>
+                        <div class="empresa"><p>Empresa</p></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="painel-chat">
+                <div class="chat">
+                
+                    <div class="mensagem ">
+                        <p class="mens">olá tudo bem</p>
+                    </div>
+                    <div class="mensagem enviada">
+                        <p class="mens">Tudo bem</p>
+                    </div>
+                </div>
+                <input type="text" name="mensagem" class="enviar-mensagem"
+                      placeholder="Mensagem...">
+            </div>
+        </div>
+    </div>
+        <!--PAINEL direito--> <!-- TA INVERTIDO TO COM MEDO DE ALTERAR E DAR RUIM-->
+    <div class="painel esq">
+        <div class="nome-painel">
+            <p class="pr">Atividades</p>
+        </div>
+        <div class="sub-painel-dir">
+            <div class="log"><!--Historico de arquivos recebidos e enviados-->
+                <img src="img/imagem-perfil.png" class="perfilatv online" alt="">
+                <div class="atv-recebida">
+                    <span class="nome logs">Nome da pessoa</span>
+                    <span class="empresa logs">empresa</span>
+                    <span class="arquivos logs">arquivo</span>
+                </div>
+                <img src="img/imagem-perfil.png" class="perfilatv off" alt="">
+                <div class="atv-recebida">
+                    <span class="nome logs">Nome da pessoa</span>
+                    <span class="empresa logs">empresa</span>
+                    <span class="arquivos logs">arquivo</span>
+                </div>
+            </div>
+        </div>
+    </div>
+   </article>
+</body>
+</html>
