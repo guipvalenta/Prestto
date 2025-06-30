@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestto</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+    <link rel="shortcut icon" type="img/png" href="img/Somente-logo.png">
+    <link rel="stylesheet" href="editar.css">
+</head>
+
+<body>
+
+ <!--Barra de navegação-->
+   <header>
+       <div class="container">
+           <div><img class="logo" src="img/Logo_site.png" alt="Logo"></div>
+           <div class="menu">
+               <nav>
+                   <a href="#">Anúncie no Prestto</a>
+                   <a href="#">Termos e serviços</a>
+               </nav>
+           </div>
+           <div class="botoes">
+               <button class="btn-sobre">Sobre</button>
+               <button class="btn-Login">Login</button>
+           </div>
+       </div>
+   </header>
+   <!--Botão voltar pagina anterior-->
+   <nav class="area-botao">
+    <button type="button" onclick="history.go(-1)" class="voltar-pagina">
+        <span>&#11144;Voltar </span>
+    </button>
+   </nav>
+   <main>
+    <section class="cima">
+        <figure>
+            <img src="img/imagem-perfil.png" alt="">
+        </figure>
+        <div class="editaveis">
+            <div class="nome">
+                <span>Nome:</span>
+                <input type="text" name="nome" id="nome-edi">
+            </div>
+
+            <div class="profissao">
+                <span>Profissão:</span>
+                <input type="text" name="prof" id="prof-edi">
+            </div>
+
+            <div class="email">
+                <span>Email: </span>
+                <input type="email" name="email" id="email-edi">
+            </div>
+
+            <div class="telefone">
+                <span>Telefone:</span>
+                <input type="tel" placeholder="(11) 1234-5678" name="numero" id="num-edi">
+            </div>
+
+            <div class="local">
+                <span>Local:</span>
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <div class="carta-apresentacao">
+            <textarea name="" id="area-texto" placeholder="Carta de carta-apresentacao" cols="15" rows="10" wrap="soft"></textarea>
+
+        </div>
+    </section>
+    <section class="baixo">
+        <div class="cursos">
+            <div class="nome-diversos">
+                <p>Cursos</p>
+            </div>
+            <div class="campo">
+                <label for='selecao-arquivo'>Cursos &#187;</label>
+                <input id='selecao-arquivo' type='file'>
+            </div>
+        </div>
+        <div class="curriculo">
+            <div class="nome-diversos">
+                <p>Curriculo</p>
+            </div>
+            <div class="campo">
+                <label for='selecao-arquivo'>Curriculo &#187;</label>
+                <input id='selecao-arquivo' type='file'>
+            </div>
+        </div>
+        <div class="portfolio">
+            <div class="nome-diversos">
+                <p>Portfolio</p>
+            </div>
+            <div class="campo">
+                <label for='selecao-arquivo'>Portfolio &#187;</label>
+                <input id='selecao-arquivo' type='file'>
+            </div>
+        </div>
+    </section>
+   </main>
+   <!--Botões de desfazer e enviar as alterações-->
+    <footer>
+        <button type="reset" class="desfazer">
+            <span>Desfazer</span></button>
+        <button type="submit" class="enviar">
+            <span>enviar</span></button>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Titillium Web", sans-serif;
+
+}
+/*Navegação*/
+.container {
+   max-width: 1080px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+header {
+   width: 100%;
+   padding: 20px;
+
+
+}
+
+
+.logo {
+   width: 25%;
+}
+
+
+.logo, img {
+   width: 200px;
+}
+
+
+.menu {
+   width: 50%;
+}
+
+
+.menu nav a {
+   color: black;
+   padding-right: 5px;
+   padding-left: 30px;
+   font-size: 15px;
+}
+
+
+a:hover {
+   text-decoration: underline;
+}
+
+
+.btn-sobre, .btn-Login {
+   padding: 10px 25px 10px 25px;
+   border: 1px solid black;
+   border-radius: 15px;
+   margin: 5px;
+   border: none;
+   box-shadow: 02px 2px 3px #00000057;
+}
+
+
+.btn-Login {
+   background-color: #2A7149;
+   color: white;
+}
+
+
+.btn-Login:hover {
+   cursor: pointer;
+   background-color: #2C8454;
+}
+
+
+.btn-sobre:hover {
+   cursor: pointer;
+   background-color: #2A7149;
+   color: white;
+}
+
+/*Painel principal*/
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Botão de voltar*/
+
+.area-botao{
+    display: flex;
+}
+
+nav.area-botao button.voltar-pagina{
+    margin-top: 10%;
+    margin-inline: 5px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+nav.area-botao button.voltar-pagina:hover{
+    background-color: #2a7149e2;
+    color: wheat;
+}
+
+/*Corpo do conteudo*/
+main{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #66676633;
+    width: 50rem;
+    height: 32rem;
+    margin-top: 10px;
+    box-shadow: 0 0 2px 0.2px;
+    border-radius: 10px;
+}
+
+
+/*Imagen, editaveis e carta de apresentação*/
+section.cima{
+    display: flex;
+    align-items: center;
+    width: 45rem;
+    height: 15rem;
+}
+
+/*Foto de perfil*/
+figure img{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 20%;
+}
+
+/*Opções editaveis*/
+.editaveis{
+    width: 22rem;
+    height: 13rem;
+}
+
+.nome, .profissao, .email, .telefone, .local{
+    background-color: #0cc45cf2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    max-width: 19rem;
+    height: 2rem;
+    margin: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+}
+
+/*Carta de apresentação*/
+.carta-apresentacao{
+    width: 12rem;
+    height: 13.3rem;
+    margin-top: 1.5%;
+    padding-top: 7px;
+    padding-left: 10px;
+    background-color: #0cc45cf2;
+    border-radius: 15px;
+}
+
+textarea{
+    resize: none;
+    
+}
+
+section.baixo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45rem;
+    height: 15rem;
+}
+
+section.baixo div.cursos,.curriculo,.portfolio{
+    display: flex;
+    flex-direction: column;
+    width:10rem;
+    height:15rem;
+}
+
+.nome-diversos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+
+}
+section.baixo div p{
+    padding: 2%;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #2A7149;
+}
+
+.campo{
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    background-color: #2C8454;
+    width: 10rem;
+    height: 12.5rem;
+    border-radius: 10px;
+}
+
+.campo input{
+    display: none;
+}
+
+label {
+    background-color: #34db3c75;
+    width: 6rem;
+    height: 1.2rem;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/*Botões enviar e desfazer*/
+footer{
+    display: flex;
+}
+
+footer button{
+    margin-top: 10%;
+    margin-inline: 5px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer button.enviar{
+    background-color: #2C8454;
+}
+
+footer button.enviar:hover{
+    background-color: #2c8454e4;
+}
+
+footer button.enviar span{
+    color: white;
+}
+
