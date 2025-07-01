@@ -78,21 +78,24 @@
         <!--Descrição do serviço-->
         <aside>
             <div class="descricao">
-                <span class="des-serv">Descrição do serviço</p>
+                <span class="des-serv">Descrição do serviço</span>
                 <textarea name="descrição" id="descri" rows="4" cols="40">
                 </textarea>
             </div>
         </aside>
         <!--Enviar arquivo modelo ou espoço-->
         <aside class="arq">
-            <span>Enviar arquivo modelo</span>
-            <input type="file" multiple name="arquivos" id="arquivo-enviado">
+            <div class="esquerda">
+                <span>Enviar arquivo modelo</span>
+                <label for="selecao-arquivo">Arquivo Modelo &#x1F4C1</label>
+                <input type="file" name="arq-modelo" id="selecao-arquivo">                
+            </div>
+            <div class="direita">
+            <button type="submit" >Enviar serviço</button>
+            </div>
+   
         </aside>
-        <!--Botão de enviar-->
-        <aside class="env">
-            <div>Enviar</div>
-        </aside>
-
-   </main>    
+   </main>
+     
 </body>
 </html>
